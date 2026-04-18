@@ -58,7 +58,7 @@ export class MenuScene extends Phaser.Scene {
     const space = this.input.keyboard!.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
     const enter = this.input.keyboard!.addKey(Phaser.Input.Keyboard.KeyCodes.ENTER);
 
-    const startGame = () => this.scene.start(SceneKey.Game, { level: 1 });
+    const startGame = () => this.scene.start(SceneKey.Preview);
 
     space.once('down', startGame);
     enter.once('down', startGame);
