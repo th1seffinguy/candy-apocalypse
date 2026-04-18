@@ -26,6 +26,7 @@ export enum SizeState {
 export enum SceneKey {
   Boot = 'BootScene',
   Menu = 'MenuScene',
+  Preview = 'PreviewScene',
   Game = 'GameScene',
   UI = 'UIScene',
   GameOver = 'GameOverScene',
